@@ -1,0 +1,161 @@
+header {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+body.single-view .hide-single-view,
+body.list-view .hide-list-view {
+    display: none;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    float: right;
+}
+
+.wrapper {
+    width: 948px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul.icon-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+
+.icon-list > li {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    text-align: center;
+    margin: 5px 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.18);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon-list > li > a {
+    color: #444;
+    text-decoration: none;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 12px;
+    width: 67px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.icon-list > li:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+}
+
+.icon-list > li:hover > a {
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+header {
+    padding: 20px 0px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+
+section.featured {
+    text-align: center;
+    font-size: 8em;
+}
+
+section.featured span.ec {
+    margin-right: 70px;
+    color: #444;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.42);
+}
+
+section.featured span.ec:last-of-type {
+    margin-right: 0;
+}
+
+section.title {
+    text-align: center;
+}
+
+section.title p.description {
+    font-size: 2.9em;
+}
+
+a.button {
+    background-color: rgba(68, 68, 68, 0.1);
+    padding: 1em;
+    font-weight: 800;
+    display: inline-block;
+}
+
+a.button.download {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+a.button:hover {
+    background-color: rgba(68, 68, 68, 0.15);
+}
+
+.single-item .left-column {
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.single-item .right-column {
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+.single-item p.icon {
+    font-size: 17em;
+    margin: 0;
+    color: #444;
+}
+
+.single-item p.title {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+pre.html-example {
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    padding: 16px;
+    background-color: white;
+    font-family: Monaco, monospace;
+}

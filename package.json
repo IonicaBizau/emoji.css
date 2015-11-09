@@ -1,8 +1,8 @@
 {
   "name": "ascii-awesome",
   "version": "0.0.1",
-  "description": "A FontAwesome replica that uses ASCII unicode characters only to display icons.",
-  "main": "index.js",
+  "description": "The iconic CSS toolkit based on Emoji!",
+  "main": "lib/index.js",
   "scripts": {
     "test": "xdg-open demo.html"
   },
