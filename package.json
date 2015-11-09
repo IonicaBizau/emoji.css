@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/AsciiAwesome.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/EmoCSS.git"
   },
   "keywords": [
     "ascii",
@@ -17,9 +17,19 @@
     "framework"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/AsciiAwesome/issues"
+    "url": "https://github.com/IonicaBizau/EmoCSS/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/AsciiAwesome"
+  "homepage": "https://github.com/IonicaBizau/EmoCSS",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "absurd": "^0.3.5",
+    "iterate-object": "^1.1.0",
+    "emojilib": "^1.0.1",
+    "bug-killer": "^4.0.0"
+  },
+  "devDependencies": {}
 }
