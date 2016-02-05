@@ -79,18 +79,20 @@ cssDist.add({
 
 // Build the CSS file
 IterateObject(EmoCss, (cIcon, name) => {
-    var cssIcon = {}
+    var cssIcon = {
+            ["." + className + ":before"]: {
+                content: "\"" + cIcon.char + "\"" // "\"" + cIcon.css + "\""
+            }
+        }
       , className = cIcon.className
       , cItem = {
-            "li.item": {}
+            ["li.item[data-keyworkds='" + cIcon.keywords.join(",") + "]"]: {
+                ["a." + cIcon.prefix + "." + className
+               + "[data-name='" + cIcon.name + "' href='#icon-" + cIcon.name + "']"
+                ]: ""
+            }
         }
       ;
-
-    cssIcon["." + className + ":before"] = {
-        content: "\"" + cIcon.char + "\"" // "\"" + cIcon.css + "\""
-    };
-
-    cItem["li.item"]["a." + cIcon.prefix + "." + className + "[data-name='" + cIcon.name + "' href='#icon-" + cIcon.name + "']"] = "";
 
     items.push(cItem);
     cssDist.add(cssIcon);
