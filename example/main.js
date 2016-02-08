@@ -3,7 +3,22 @@ window.addEventListener("load", function () {
     var $$ = document.querySelectorAll.bind(document)
       , $ = document.querySelector.bind(document)
       , singleItem = $(".single-item")
+      , emojiChars = $(".emoji-chars").innerHTML.split(",")
       ;
+
+    var featured = $$(".wrapper .featured-icon")
+      , featuredIconClick = function () {
+            var self = this;
+            self.classList.add("fadeOut");
+            setTimeout(function() {
+                self.setAttribute("class", "featured-icon ec " + emojiChars[Math.floor(Math.random() * emojiChars.length)]);
+            }, 500);
+        }
+      ;
+
+    featured[0].addEventListener("click", featuredIconClick);
+    featured[1].addEventListener("click", featuredIconClick);
+    featured[2].addEventListener("click", featuredIconClick);
 
     function checkHash() {
         if (location.hash) {

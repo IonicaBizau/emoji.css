@@ -175,3 +175,17 @@ input.search-input:focus {
     border: 1px solid #000;
     outline: none;
 }
+
+.featured-icon {
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.featured-icon:hover {
+    color: #3498DB !important;
+    text-shadow: 1px 1px 2px #2980B9 !important;
+}
+
+.fadeOut {
+    opacity: 0;
+}

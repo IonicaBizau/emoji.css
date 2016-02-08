@@ -25,7 +25,8 @@ var cssDist = Absurd()
           , "script[src='example/main.js']": ""
         }
       , "body.list-view": {
-            header: {
+            "div.hide.emoji-chars": Object.keys(EmoCss).map(x => EmoCss[x].className).join(",")
+          , header: {
                 ".wrapper": {
                     "a[href=/]": "EmoCSS"
                   , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
