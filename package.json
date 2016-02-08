@@ -30,6 +30,7 @@
     "bug-killer": "^4.0.0",
     "emojilib": "^2.0.2",
     "iterate-object": "^1.1.0",
+    "regex-escape": "^3.4.1",
     "string-length": "^1.0.1"
   },
   "devDependencies": {}

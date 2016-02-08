@@ -1,11 +1,14 @@
 window.addEventListener("load", function () {
 
-    var singleItem = document.querySelector(".single-item");
+    var $$ = document.querySelectorAll.bind(document)
+      , $ = document.querySelector.bind(document)
+      , singleItem = $(".single-item")
+      ;
 
     function checkHash() {
         if (location.hash) {
             var iconName = location.hash.substring(6)
-              , elms = document.querySelectorAll(".icon-list .ec.ec-" + iconName)
+              , elms = $$(".icon-list .ec.ec-" + iconName)
               , iconElm = elms[0]
               ;
 
@@ -21,6 +24,48 @@ window.addEventListener("load", function () {
         }
         document.body.setAttribute("class", "list-view");
     }
+
+    var itemElms = $$("[data-icon-name]")
+      , iconsCache = {}
+      ;
+
+    for (var i = 0; i < itemElms.length; ++i) {
+        var c = itemElms[i]
+          , iconName = c.dataset.iconName.trim()
+          , iconKeywords = c.dataset.keywords.split(",")
+          ;
+
+        iconKeywords.push(iconName);
+
+        iconsCache[iconName] = { $: c, k: iconKeywords };
+    }
+
+    $(".search-input").addEventListener("input", function () {
+        var search = this.value
+          , names = Object.keys(iconsCache)
+          ;
+
+        function check(cIcon, s) {
+            var re = new RegExp(s);
+            for (var i = 0; i < cIcon.k.length; ++i) {
+                if (re.test(cIcon.k[i])) {
+                    return true;
+                }
+            }
+        }
+
+        for (var i =0; i < names.length; ++i ) {
+            var cName = names[i]
+              , cIcon = iconsCache[cName]
+              ;
+
+            if (check(cIcon, search)) {
+                cIcon.$.style.display = "inline-block";
+            } else {
+                cIcon.$.style.display = "none";
+            }
+        }
+    });
 
     checkHash();
     window.addEventListener("hashchange", checkHash);
