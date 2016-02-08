@@ -4,6 +4,7 @@ const EmoCss = require("../lib")
     , IterateObject = require("iterate-object")
     , Absurd = require("absurd")
     , Logger = require("bug-killer")
+    , escapeRegex = require("regex-escape")
     ;
 
 // Constants
@@ -27,6 +28,7 @@ var cssDist = Absurd()
             header: {
                 ".wrapper": {
                     "a[href=/]": "EmoCSS"
+                  , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
                   , "a.right[href=https://github.com/IonicaBizau/EmoCSS]": "See on GitHub"
                 }
             }
@@ -79,14 +81,14 @@ cssDist.add({
 
 // Build the CSS file
 IterateObject(EmoCss, (cIcon, name) => {
-    var cssIcon = {
+    var className = cIcon.className
+      , cssIcon = {
             ["." + className + ":before"]: {
                 content: "\"" + cIcon.char + "\"" // "\"" + cIcon.css + "\""
             }
         }
-      , className = cIcon.className
       , cItem = {
-            ["li.item[data-keyworkds='" + cIcon.keywords.join(",") + "]"]: {
+            ["li.item[data-keywords='" + cIcon.keywords.filter(x => !/:/g.test(x)).join(",") + "' data-icon-name='" + cIcon.name + "']"]: {
                 ["a." + cIcon.prefix + "." + className
                + "[data-name='" + cIcon.name + "' href='#icon-" + cIcon.name + "']"
                 ]: ""
