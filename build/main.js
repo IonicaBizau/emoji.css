@@ -42,7 +42,7 @@ var cssDist = Absurd()
             }
           , "section.title.hide-single-view": {
                 ".wrapper": {
-                    "p.description": "Your project. Emojified."
+                    "p.description": "Your project. Emoji icons."
                   , "a.button.download[href=https://github.com/IonicaBizau/EmoCSS']": "Download EmoCSS"
                 }
             }
@@ -109,7 +109,7 @@ cssDist.compileFile(DIST_PATH, (err, css) => {
     Logger.log("Generated the css file.");
 }, {
     //minify: true
-});
+};
 
 // Compile HTML
 htmlDist.add({
