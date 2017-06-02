@@ -1,7 +1,7 @@
 {
   "name": "emoji.css",
   "version": "0.0.1",
-  "description": "Your website. Emojified.",
+  "description": "Your website. Emojified. Like FontAwesome for emojis.",
   "main": "lib/index.js",
   "keywords": [
     "ascii",
