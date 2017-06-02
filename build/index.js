@@ -1,5 +1,5 @@
 // Dependencies
-const EmoCss = require("../lib")
+const emojiCss = require("../lib")
     , Path = require("path")
     , IterateObject = require("iterate-object")
     , Absurd = require("absurd")
@@ -8,7 +8,7 @@ const EmoCss = require("../lib")
     ;
 
 // Constants
-const DIST_PATH = Path.normalize(__dirname + "/../dist/emocss.min.css")
+const DIST_PATH = Path.normalize(__dirname + "/../dist/emoji.min.css")
     , HTML_DIST_PATH = Path.normalize(__dirname + "/../index.html")
     ;
 
@@ -18,19 +18,19 @@ var cssDist = Absurd()
   , items = []
   , htmlData = {
         head: {
-            title: "EmoCSS"
+            title: "emoji.css"
           , "meta[charset='UTF-8']": null
-          , "link[rel='stylesheet' href='dist/emocss.min.css']": null
+          , "link[rel='stylesheet' href='dist/emoji.min.css']": null
           , "link[rel='stylesheet' href='example/style.css']": null
           , "script[src='example/main.js']": ""
         }
       , "body.list-view": {
-            "div.hide.emoji-chars": Object.keys(EmoCss).map(x => EmoCss[x].className).join(",")
+            "div.hide.emoji-chars": Object.keys(emojiCss).map(x => emojiCss[x].className).join(",")
           , header: {
                 ".wrapper": {
-                    "a[href=/]": "EmoCSS"
+                    "a[href=/]": "emoji.css"
                   , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
-                  , "a.right[href=https://github.com/IonicaBizau/EmoCSS]": "See on GitHub"
+                  , "a.right[href=https://github.com/IonicaBizau/emoji.css]": "See on GitHub"
                 }
             }
           , "section.featured.hide-single-view": {
@@ -42,8 +42,12 @@ var cssDist = Absurd()
             }
           , "section.title.hide-single-view": {
                 ".wrapper": {
-                    "p.description": "Your web page. Emojified."
-                  , "a.button.download[href=https://github.com/IonicaBizau/EmoCSS']": "Download EmoCSS"
+                    "p.description": "Your website. Emojified."
+                  , "a.button.download[href=https://github.com/IonicaBizau/emojiCss']": "Download emoji.css"
+                  , "pre": ("<!-- Or use the CDN -->\n" +
+                            "<link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>\n" +
+                            "...\n" +
+                            "<span class='ec ec-sparkling-heart'></span>").replace(/\</g, "&lt;").replace(/\>/g, "&gt;").replace(/\n/g, "<br/>")
                 }
             }
           , "section.hide-single-view": {
@@ -79,7 +83,7 @@ cssDist.add({
 });
 
 // Build the CSS file
-IterateObject(EmoCss, (cIcon, name) => {
+IterateObject(emojiCss, (cIcon, name) => {
     var className = cIcon.className
       , cssIcon = {
             ["." + className + ":before"]: {
@@ -117,4 +121,9 @@ htmlDist.add({
         return Logger.log(err, "error");
     }
     Logger.log("Generated the HTML file.");
+    let content = fs.readFileSync(HTML_DIST_PATH, "utf-8")
+    content = content.replace("stylesheet '", "stylesheet'");
+    content = content.replace(/.css\n +'/, ".css'");
+    content = content.replace("heart '", "heart'");
+    fs.writeFileSync(HTML_DIST_PATH, content);
 });

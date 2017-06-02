@@ -1,27 +1,20 @@
 {
-  "name": "ascii-awesome",
+  "name": "emoji.css",
   "version": "0.0.1",
-  "description": "The iconic CSS toolkit based on Emoji!",
+  "description": "Your website. Emojified.",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "xdg-open demo.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/EmoCSS.git"
-  },
   "keywords": [
     "ascii",
     "awesome",
     "css",
     "framework"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "KINDLY",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/EmoCSS/issues"
+    "url": "https://github.com/IonicaBizau/emoji.css/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/EmoCSS",
+  "homepage": "https://github.com/IonicaBizau/emoji.css",
   "directories": {
     "example": "example"
   },
@@ -33,5 +26,21 @@
     "regex-escape": "^3.4.1",
     "string-length": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/emoji.css.git"
+  }
 }
