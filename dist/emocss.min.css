@@ -22,6 +22,9 @@ body p {
 .ec-joy:before {
   content: "😂";
 }
+.ec-rofl:before {
+  content: "🤣";
+}
 .ec-smiley:before {
   content: "😃";
 }
@@ -43,10 +46,10 @@ body p {
 .ec-blush:before {
   content: "😊";
 }
-.ec-slightly-smiling:before {
+.ec-slightly-smiling-face:before {
   content: "🙂";
 }
-.ec-upside-down:before {
+.ec-upside-down-face:before {
   content: "🙃";
 }
 .ec-yum:before {
@@ -79,16 +82,22 @@ body p {
 .ec-stuck-out-tongue:before {
   content: "😛";
 }
-.ec-money-mouth:before {
+.ec-money-mouth-face:before {
   content: "🤑";
 }
-.ec-nerd:before {
+.ec-nerd-face:before {
   content: "🤓";
 }
 .ec-sunglasses:before {
   content: "😎";
 }
-.ec-hugging:before {
+.ec-clown-face:before {
+  content: "🤡";
+}
+.ec-cowboy-hat-face:before {
+  content: "🤠";
+}
+.ec-hugs:before {
   content: "🤗";
 }
 .ec-smirk:before {
@@ -106,11 +115,14 @@ body p {
 .ec-unamused:before {
   content: "😒";
 }
-.ec-rolling-eyes:before {
+.ec-roll-eyes:before {
   content: "🙄";
 }
 .ec-thinking:before {
   content: "🤔";
+}
+.ec-lying-face:before {
+  content: "🤥";
 }
 .ec-flushed:before {
   content: "😳";
@@ -133,10 +145,10 @@ body p {
 .ec-confused:before {
   content: "😕";
 }
-.ec-slightly-sad:before {
+.ec-slightly-frowning-face:before {
   content: "🙁";
 }
-.ec-white-frowning:before {
+.ec-frowning-face:before {
   content: "☹";
 }
 .ec-persevere:before {
@@ -181,6 +193,9 @@ body p {
 .ec-disappointed-relieved:before {
   content: "😥";
 }
+.ec-drooling-face:before {
+  content: "🤤";
+}
 .ec-sleepy:before {
   content: "😪";
 }
@@ -196,16 +211,22 @@ body p {
 .ec-astonished:before {
   content: "😲";
 }
-.ec-zipper-mouth:before {
+.ec-zipper-mouth-face:before {
   content: "🤐";
+}
+.ec-nauseated-face:before {
+  content: "🤢";
+}
+.ec-sneezing-face:before {
+  content: "🤧";
 }
 .ec-mask:before {
   content: "😷";
 }
-.ec-thermometer-face:before {
+.ec-face-with-thermometer:before {
   content: "🤒";
 }
-.ec-bandage-face:before {
+.ec-face-with-head-bandage:before {
   content: "🤕";
 }
 .ec-sleeping:before {
@@ -214,7 +235,7 @@ body p {
 .ec-zzz:before {
   content: "💤";
 }
-.ec-hankey:before {
+.ec-poop:before {
   content: "💩";
 }
 .ec-smiling-imp:before {
@@ -277,6 +298,9 @@ body p {
 .ec-wave:before {
   content: "👋";
 }
+.ec-call-me-hand:before {
+  content: "🤙";
+}
 .ec-plus1:before {
   content: "👍";
 }
@@ -289,11 +313,23 @@ body p {
 .ec-fist:before {
   content: "✊";
 }
+.ec-fist-left:before {
+  content: "🤛";
+}
+.ec-fist-right:before {
+  content: "🤜";
+}
+.ec-v:before {
+  content: "✌";
+}
 .ec-ok-hand:before {
   content: "👌";
 }
-.ec-hand:before {
+.ec-raised-hand:before {
   content: "✋";
+}
+.ec-raised-back-of-hand:before {
+  content: "🤚";
 }
 .ec-open-hands:before {
   content: "👐";
@@ -303,6 +339,12 @@ body p {
 }
 .ec-pray:before {
   content: "🙏";
+}
+.ec-handshake:before {
+  content: "🤝";
+}
+.ec-point-up:before {
+  content: "☝";
 }
 .ec-point-up-2:before {
   content: "👆";
@@ -316,20 +358,26 @@ body p {
 .ec-point-right:before {
   content: "👉";
 }
-.ec-middle-finger:before {
+.ec-fu:before {
   content: "🖕";
 }
-.ec-splayed-fingers:before {
+.ec-raised-hand-with-fingers-splayed:before {
   content: "🖐";
 }
-.ec-sign-of-horns:before {
+.ec-metal:before {
   content: "🤘";
+}
+.ec-crossed-fingers:before {
+  content: "🤞";
 }
 .ec-vulcan-salute:before {
   content: "🖖";
 }
 .ec-writing-hand:before {
   content: "✍";
+}
+.ec-selfie:before {
+  content: "🤳";
 }
 .ec-nail-care:before {
   content: "💅";
@@ -376,7 +424,7 @@ body p {
 .ec-woman:before {
   content: "👩";
 }
-.ec-person-with-blond-hair:before {
+.ec-blonde-man:before {
   content: "👱";
 }
 .ec-older-man:before {
@@ -391,17 +439,20 @@ body p {
 .ec-man-with-turban:before {
   content: "👳";
 }
-.ec-cop:before {
+.ec-policeman:before {
   content: "👮";
 }
-.ec-construction-worker:before {
+.ec-construction-worker-man:before {
   content: "👷";
 }
 .ec-guardsman:before {
   content: "💂";
 }
-.ec-sleuth:before {
+.ec-male-detective:before {
   content: "🕵";
+}
+.ec-mrs-claus:before {
+  content: "🤶";
 }
 .ec-santa:before {
   content: "🎅";
@@ -409,22 +460,34 @@ body p {
 .ec-angel:before {
   content: "👼";
 }
+.ec-pregnant-woman:before {
+  content: "🤰";
+}
 .ec-princess:before {
   content: "👸";
+}
+.ec-prince:before {
+  content: "🤴";
 }
 .ec-bride-with-veil:before {
   content: "👰";
 }
-.ec-runner:before {
+.ec-man-in-tuxedo:before {
+  content: "🤵";
+}
+.ec-running-man:before {
   content: "🏃";
 }
-.ec-walking:before {
+.ec-walking-man:before {
   content: "🚶";
 }
 .ec-dancer:before {
   content: "💃";
 }
-.ec-dancers:before {
+.ec-man-dancing:before {
+  content: "🕺";
+}
+.ec-dancing-women:before {
   content: "👯";
 }
 .ec-couple:before {
@@ -436,46 +499,52 @@ body p {
 .ec-two-women-holding-hands:before {
   content: "👭";
 }
-.ec-bow:before {
+.ec-bowing-man:before {
   content: "🙇";
 }
-.ec-information-desk-person:before {
+.ec-man-facepalming:before {
+  content: "🤦";
+}
+.ec-woman-shrugging:before {
+  content: "🤷";
+}
+.ec-tipping-hand-woman:before {
   content: "💁";
 }
-.ec-no-good:before {
+.ec-no-good-woman:before {
   content: "🙅";
 }
 .ec-ok-woman:before {
   content: "🙆";
 }
-.ec-raising-hand:before {
+.ec-raising-hand-woman:before {
   content: "🙋";
 }
-.ec-person-with-pouting-face:before {
+.ec-pouting-woman:before {
   content: "🙎";
 }
-.ec-person-frowning:before {
+.ec-frowning-woman:before {
   content: "🙍";
 }
-.ec-haircut:before {
+.ec-haircut-woman:before {
   content: "💇";
 }
-.ec-massage:before {
+.ec-massage-woman:before {
   content: "💆";
 }
-.ec-couple-with-heart:before {
+.ec-couple-with-heart-woman-man:before {
   content: "💑";
 }
-.ec-couplekiss:before {
+.ec-couplekiss-man-woman:before {
   content: "💏";
 }
-.ec-family:before {
+.ec-family-man-woman-boy:before {
   content: "👪";
 }
 .ec-womans-clothes:before {
   content: "👚";
 }
-.ec-shirt:before {
+.ec-tshirt:before {
   content: "👕";
 }
 .ec-jeans:before {
@@ -523,7 +592,7 @@ body p {
 .ec-tophat:before {
   content: "🎩";
 }
-.ec-helmet:before {
+.ec-rescue-worker-helmet:before {
   content: "⛑";
 }
 .ec-mortar-board:before {
@@ -574,6 +643,9 @@ body p {
 .ec-rabbit:before {
   content: "🐰";
 }
+.ec-fox-face:before {
+  content: "🦊";
+}
 .ec-bear:before {
   content: "🐻";
 }
@@ -586,7 +658,7 @@ body p {
 .ec-tiger:before {
   content: "🐯";
 }
-.ec-lion-face:before {
+.ec-lion:before {
   content: "🦁";
 }
 .ec-cow:before {
@@ -601,11 +673,20 @@ body p {
 .ec-frog:before {
   content: "🐸";
 }
+.ec-squid:before {
+  content: "🦑";
+}
 .ec-octopus:before {
   content: "🐙";
 }
+.ec-shrimp:before {
+  content: "🦐";
+}
 .ec-monkey-face:before {
   content: "🐵";
+}
+.ec-gorilla:before {
+  content: "🦍";
 }
 .ec-see-no-evil:before {
   content: "🙈";
@@ -637,6 +718,18 @@ body p {
 .ec-hatched-chick:before {
   content: "🐥";
 }
+.ec-duck:before {
+  content: "🦆";
+}
+.ec-eagle:before {
+  content: "🦅";
+}
+.ec-owl:before {
+  content: "🦉";
+}
+.ec-bat:before {
+  content: "🦇";
+}
 .ec-wolf:before {
   content: "🐺";
 }
@@ -646,14 +739,17 @@ body p {
 .ec-horse:before {
   content: "🐴";
 }
-.ec-unicorn-face:before {
+.ec-unicorn:before {
   content: "🦄";
 }
-.ec-bee:before {
+.ec-honeybee:before {
   content: "🐝";
 }
 .ec-bug:before {
   content: "🐛";
+}
+.ec-butterfly:before {
+  content: "🦋";
 }
 .ec-snail:before {
   content: "🐌";
@@ -676,6 +772,9 @@ body p {
 .ec-snake:before {
   content: "🐍";
 }
+.ec-lizard:before {
+  content: "🦎";
+}
 .ec-turtle:before {
   content: "🐢";
 }
@@ -690,6 +789,9 @@ body p {
 }
 .ec-dolphin:before {
   content: "🐬";
+}
+.ec-shark:before {
+  content: "🦈";
 }
 .ec-whale:before {
   content: "🐳";
@@ -715,6 +817,9 @@ body p {
 .ec-cow2:before {
   content: "🐄";
 }
+.ec-deer:before {
+  content: "🦌";
+}
 .ec-dromedary-camel:before {
   content: "🐪";
 }
@@ -723,6 +828,9 @@ body p {
 }
 .ec-elephant:before {
   content: "🐘";
+}
+.ec-rhinoceros:before {
+  content: "🦏";
 }
 .ec-goat:before {
   content: "🐐";
@@ -751,7 +859,7 @@ body p {
 .ec-turkey:before {
   content: "🦃";
 }
-.ec-dove-of-peace:before {
+.ec-dove:before {
   content: "🕊";
 }
 .ec-dog2:before {
@@ -769,7 +877,7 @@ body p {
 .ec-chipmunk:before {
   content: "🐿";
 }
-.ec-feet:before {
+.ec-paw-prints:before {
   content: "🐾";
 }
 .ec-dragon:before {
@@ -832,6 +940,9 @@ body p {
 .ec-rose:before {
   content: "🌹";
 }
+.ec-wilted-flower:before {
+  content: "🥀";
+}
 .ec-tulip:before {
   content: "🌷";
 }
@@ -889,7 +1000,7 @@ body p {
 .ec-first-quarter-moon:before {
   content: "🌓";
 }
-.ec-moon:before {
+.ec-waxing-gibbous-moon:before {
   content: "🌔";
 }
 .ec-new-moon-with-face:before {
@@ -925,22 +1036,22 @@ body p {
 .ec-comet:before {
   content: "☄";
 }
-.ec-white-sun-with-small-cloud:before {
+.ec-sun-behind-small-cloud:before {
   content: "🌤";
 }
 .ec-partly-sunny:before {
   content: "⛅";
 }
-.ec-white-sun-behind-cloud:before {
+.ec-sun-behind-large-cloud:before {
   content: "🌥";
 }
-.ec-white-sun-behind-cloud-with-rain:before {
+.ec-sun-behind-rain-cloud:before {
   content: "🌦";
 }
 .ec-cloud-with-rain:before {
   content: "🌧";
 }
-.ec-thunder-cloud-and-rain:before {
+.ec-cloud-with-lightning-and-rain:before {
   content: "⛈";
 }
 .ec-cloud-with-lightning:before {
@@ -964,19 +1075,19 @@ body p {
 .ec-snowman-with-snow:before {
   content: "☃";
 }
-.ec-wind-blowing-face:before {
+.ec-wind-face:before {
   content: "🌬";
 }
 .ec-dash:before {
   content: "💨";
 }
-.ec-cloud-with-tornado:before {
+.ec-tornado:before {
   content: "🌪";
 }
 .ec-fog:before {
   content: "🌫";
 }
-.ec-umbrella-without-rain:before {
+.ec-open-umbrella:before {
   content: "☂";
 }
 .ec-umbrella:before {
@@ -1030,14 +1141,29 @@ body p {
 .ec-pineapple:before {
   content: "🍍";
 }
+.ec-kiwi-fruit:before {
+  content: "🥝";
+}
+.ec-avocado:before {
+  content: "🥑";
+}
 .ec-tomato:before {
   content: "🍅";
 }
 .ec-eggplant:before {
   content: "🍆";
 }
+.ec-cucumber:before {
+  content: "🥒";
+}
+.ec-carrot:before {
+  content: "🥕";
+}
 .ec-hot-pepper:before {
   content: "🌶";
+}
+.ec-potato:before {
+  content: "🥔";
 }
 .ec-corn:before {
   content: "🌽";
@@ -1045,14 +1171,32 @@ body p {
 .ec-sweet-potato:before {
   content: "🍠";
 }
+.ec-peanuts:before {
+  content: "🥜";
+}
 .ec-honey-pot:before {
   content: "🍯";
+}
+.ec-croissant:before {
+  content: "🥐";
 }
 .ec-bread:before {
   content: "🍞";
 }
-.ec-cheese-wedge:before {
+.ec-baguette-bread:before {
+  content: "🥖";
+}
+.ec-cheese:before {
   content: "🧀";
+}
+.ec-egg:before {
+  content: "🥚";
+}
+.ec-bacon:before {
+  content: "🥓";
+}
+.ec-pancakes:before {
+  content: "🥞";
 }
 .ec-poultry-leg:before {
   content: "🍗";
@@ -1063,7 +1207,7 @@ body p {
 .ec-fried-shrimp:before {
   content: "🍤";
 }
-.ec-egg:before {
+.ec-fried-egg:before {
   content: "🍳";
 }
 .ec-hamburger:before {
@@ -1072,7 +1216,10 @@ body p {
 .ec-fries:before {
   content: "🍟";
 }
-.ec-hot-dog:before {
+.ec-stuffed-flatbread:before {
+  content: "🥙";
+}
+.ec-hotdog:before {
   content: "🌭";
 }
 .ec-pizza:before {
@@ -1086,6 +1233,12 @@ body p {
 }
 .ec-burrito:before {
   content: "🌯";
+}
+.ec-green-salad:before {
+  content: "🥗";
+}
+.ec-shallow-pan-of-food:before {
+  content: "🥘";
 }
 .ec-ramen:before {
   content: "🍜";
@@ -1156,14 +1309,23 @@ body p {
 .ec-cookie:before {
   content: "🍪";
 }
+.ec-milk-glass:before {
+  content: "🥛";
+}
 .ec-beer:before {
   content: "🍺";
 }
 .ec-beers:before {
   content: "🍻";
 }
+.ec-clinking-glasses:before {
+  content: "🥂";
+}
 .ec-wine-glass:before {
   content: "🍷";
+}
+.ec-tumbler-glass:before {
+  content: "🥃";
 }
 .ec-cocktail:before {
   content: "🍸";
@@ -1171,7 +1333,7 @@ body p {
 .ec-tropical-drink:before {
   content: "🍹";
 }
-.ec-bottle:before {
+.ec-champagne:before {
   content: "🍾";
 }
 .ec-sake:before {
@@ -1186,10 +1348,13 @@ body p {
 .ec-baby-bottle:before {
   content: "🍼";
 }
+.ec-spoon:before {
+  content: "🥄";
+}
 .ec-fork-and-knife:before {
   content: "🍴";
 }
-.ec-fork-and-knife-with-plate:before {
+.ec-plate-with-cutlery:before {
   content: "🍽";
 }
 .ec-soccer:before {
@@ -1219,14 +1384,17 @@ body p {
 .ec-golf:before {
   content: "⛳";
 }
-.ec-golfer:before {
+.ec-golfing-man:before {
   content: "🏌";
 }
-.ec-table-tennis:before {
+.ec-ping-pong:before {
   content: "🏓";
 }
 .ec-badminton:before {
   content: "🏸";
+}
+.ec-goal-net:before {
+  content: "🥅";
 }
 .ec-ice-hockey:before {
   content: "🏒";
@@ -1246,6 +1414,9 @@ body p {
 .ec-snowboarder:before {
   content: "🏂";
 }
+.ec-person-fencing:before {
+  content: "🤺";
+}
 .ec-ice-skate:before {
   content: "⛸";
 }
@@ -1255,34 +1426,40 @@ body p {
 .ec-fishing-pole-and-fish:before {
   content: "🎣";
 }
-.ec-rowboat:before {
+.ec-boxing-glove:before {
+  content: "🥊";
+}
+.ec-martial-arts-uniform:before {
+  content: "🥋";
+}
+.ec-rowing-man:before {
   content: "🚣";
 }
-.ec-swimmer:before {
+.ec-swimming-man:before {
   content: "🏊";
 }
-.ec-surfer:before {
+.ec-surfing-man:before {
   content: "🏄";
 }
 .ec-bath:before {
   content: "🛀";
 }
-.ec-person-with-ball:before {
+.ec-basketball-man:before {
   content: "⛹";
 }
-.ec-weight-lifter:before {
+.ec-weight-lifting-man:before {
   content: "🏋";
 }
-.ec-bicyclist:before {
+.ec-biking-man:before {
   content: "🚴";
 }
-.ec-mountain-bicyclist:before {
+.ec-mountain-biking-man:before {
   content: "🚵";
 }
 .ec-horse-racing:before {
   content: "🏇";
 }
-.ec-man-levitating:before {
+.ec-business-suit-levitating:before {
   content: "🕴";
 }
 .ec-trophy:before {
@@ -1291,11 +1468,20 @@ body p {
 .ec-running-shirt-with-sash:before {
   content: "🎽";
 }
-.ec-sports-medal:before {
+.ec-medal-sports:before {
   content: "🏅";
 }
-.ec-military-medal:before {
+.ec-medal-military:before {
   content: "🎖";
+}
+.ec-1st-place-medal:before {
+  content: "🥇";
+}
+.ec-2nd-place-medal:before {
+  content: "🥈";
+}
+.ec-3rd-place-medal:before {
+  content: "🥉";
 }
 .ec-reminder-ribbon:before {
   content: "🎗";
@@ -1306,7 +1492,7 @@ body p {
 .ec-ticket:before {
   content: "🎫";
 }
-.ec-admission-ticket:before {
+.ec-tickets:before {
   content: "🎟";
 }
 .ec-performing-arts:before {
@@ -1329,6 +1515,9 @@ body p {
 }
 .ec-musical-keyboard:before {
   content: "🎹";
+}
+.ec-drum:before {
+  content: "🥁";
 }
 .ec-saxophone:before {
   content: "🎷";
@@ -1363,7 +1552,7 @@ body p {
 .ec-bowling:before {
   content: "🎳";
 }
-.ec-car:before {
+.ec-red-car:before {
   content: "🚗";
 }
 .ec-taxi:before {
@@ -1402,11 +1591,17 @@ body p {
 .ec-tractor:before {
   content: "🚜";
 }
-.ec-racing-motorcycle:before {
+.ec-kick-scooter:before {
+  content: "🛴";
+}
+.ec-motorcycle:before {
   content: "🏍";
 }
 .ec-bike:before {
   content: "🚲";
+}
+.ec-motor-scooter:before {
+  content: "🛵";
 }
 .ec-rotating-light:before {
   content: "🚨";
@@ -1474,13 +1669,13 @@ body p {
 .ec-small-airplane:before {
   content: "🛩";
 }
-.ec-airplane-departure:before {
+.ec-flight-departure:before {
   content: "🛫";
 }
-.ec-airplane-arrival:before {
+.ec-flight-arrival:before {
   content: "🛬";
 }
-.ec-boat:before {
+.ec-sailboat:before {
   content: "⛵";
 }
 .ec-motor-boat:before {
@@ -1503,6 +1698,9 @@ body p {
 }
 .ec-seat:before {
   content: "💺";
+}
+.ec-canoe:before {
+  content: "🛶";
 }
 .ec-anchor:before {
   content: "⚓";
@@ -1558,7 +1756,7 @@ body p {
 .ec-mountain:before {
   content: "⛰";
 }
-.ec-snow-capped-mountain:before {
+.ec-mountain-snow:before {
   content: "🏔";
 }
 .ec-mount-fuji:before {
@@ -1594,7 +1792,7 @@ body p {
 .ec-desert:before {
   content: "🏜";
 }
-.ec-beach-with-umbrella:before {
+.ec-beach-umbrella:before {
   content: "🏖";
 }
 .ec-desert-island:before {
@@ -1630,7 +1828,7 @@ body p {
 .ec-rainbow:before {
   content: "🌈";
 }
-.ec-buildings:before {
+.ec-houses:before {
   content: "🏘";
 }
 .ec-european-castle:before {
@@ -1687,7 +1885,7 @@ body p {
 .ec-wedding:before {
   content: "💒";
 }
-.ec-museum:before {
+.ec-classical-building:before {
   content: "🏛";
 }
 .ec-church:before {
@@ -1726,7 +1924,7 @@ body p {
 .ec-printer:before {
   content: "🖨";
 }
-.ec-three-button-mouse:before {
+.ec-computer-mouse:before {
   content: "🖱";
 }
 .ec-trackball:before {
@@ -1735,7 +1933,7 @@ body p {
 .ec-joystick:before {
   content: "🕹";
 }
-.ec-compression:before {
+.ec-clamp:before {
   content: "🗜";
 }
 .ec-minidisc:before {
@@ -1756,7 +1954,7 @@ body p {
 .ec-camera:before {
   content: "📷";
 }
-.ec-camera-with-flash:before {
+.ec-camera-flash:before {
   content: "📸";
 }
 .ec-video-camera:before {
@@ -1768,7 +1966,7 @@ body p {
 .ec-film-projector:before {
   content: "📽";
 }
-.ec-film-frames:before {
+.ec-film-strip:before {
   content: "🎞";
 }
 .ec-telephone-receiver:before {
@@ -1861,7 +2059,7 @@ body p {
 .ec-gem:before {
   content: "💎";
 }
-.ec-scales:before {
+.ec-balance-scale:before {
   content: "⚖";
 }
 .ec-wrench:before {
@@ -1897,7 +2095,7 @@ body p {
 .ec-hocho:before {
   content: "🔪";
 }
-.ec-dagger-knife:before {
+.ec-dagger:before {
   content: "🗡";
 }
 .ec-crossed-swords:before {
@@ -1975,7 +2173,7 @@ body p {
 .ec-couch-and-lamp:before {
   content: "🛋";
 }
-.ec-sleeping-accommodation:before {
+.ec-sleeping-bed:before {
   content: "🛌";
 }
 .ec-bed:before {
@@ -1987,20 +2185,23 @@ body p {
 .ec-bellhop-bell:before {
   content: "🛎";
 }
-.ec-frame-with-picture:before {
+.ec-framed-picture:before {
   content: "🖼";
 }
 .ec-world-map:before {
   content: "🗺";
 }
-.ec-umbrella-on-ground:before {
+.ec-parasol-on-ground:before {
   content: "⛱";
 }
 .ec-moyai:before {
   content: "🗿";
 }
-.ec-shopping-bags:before {
+.ec-shopping:before {
   content: "🛍";
+}
+.ec-shopping-cart:before {
+  content: "🛒";
 }
 .ec-balloon:before {
   content: "🎈";
@@ -2038,7 +2239,7 @@ body p {
 .ec-incoming-envelope:before {
   content: "📨";
 }
-.ec-email:before {
+.ec-e-mail:before {
   content: "📧";
 }
 .ec-love-letter:before {
@@ -2098,7 +2299,7 @@ body p {
 .ec-calendar:before {
   content: "📆";
 }
-.ec-spiral-calendar-pad:before {
+.ec-spiral-calendar:before {
   content: "🗓";
 }
 .ec-card-index:before {
@@ -2107,7 +2308,7 @@ body p {
 .ec-card-file-box:before {
   content: "🗃";
 }
-.ec-ballot-box-with-ballot:before {
+.ec-ballot-box:before {
   content: "🗳";
 }
 .ec-file-cabinet:before {
@@ -2116,7 +2317,7 @@ body p {
 .ec-clipboard:before {
   content: "📋";
 }
-.ec-spiral-note-pad:before {
+.ec-spiral-notepad:before {
   content: "🗒";
 }
 .ec-file-folder:before {
@@ -2128,7 +2329,7 @@ body p {
 .ec-card-index-dividers:before {
   content: "🗂";
 }
-.ec-rolled-up-newspaper:before {
+.ec-newspaper-roll:before {
   content: "🗞";
 }
 .ec-newspaper:before {
@@ -2158,7 +2359,7 @@ body p {
 .ec-books:before {
   content: "📚";
 }
-.ec-book:before {
+.ec-open-book:before {
   content: "📖";
 }
 .ec-link:before {
@@ -2167,7 +2368,7 @@ body p {
 .ec-paperclip:before {
   content: "📎";
 }
-.ec-linked-paperclips:before {
+.ec-paperclips:before {
   content: "🖇";
 }
 .ec-triangular-ruler:before {
@@ -2185,10 +2386,10 @@ body p {
 .ec-triangular-flag-on-post:before {
   content: "🚩";
 }
-.ec-waving-white-flag:before {
+.ec-white-flag:before {
   content: "🏳";
 }
-.ec-waving-black-flag:before {
+.ec-black-flag:before {
   content: "🏴";
 }
 .ec-closed-lock-with-key:before {
@@ -2203,19 +2404,19 @@ body p {
 .ec-lock-with-ink-pen:before {
   content: "🔏";
 }
-.ec-lower-left-ballpoint-pen:before {
+.ec-pen:before {
   content: "🖊";
 }
-.ec-lower-left-fountain-pen:before {
+.ec-fountain-pen:before {
   content: "🖋";
 }
 .ec-memo:before {
   content: "📝";
 }
-.ec-lower-left-crayon:before {
+.ec-crayon:before {
   content: "🖍";
 }
-.ec-lower-left-paintbrush:before {
+.ec-paintbrush:before {
   content: "🖌";
 }
 .ec-mag:before {
@@ -2236,10 +2437,13 @@ body p {
 .ec-purple-heart:before {
   content: "💜";
 }
+.ec-black-heart:before {
+  content: "🖤";
+}
 .ec-broken-heart:before {
   content: "💔";
 }
-.ec-heavy-heart-exclamation-mark-ornament:before {
+.ec-heavy-heart-exclamation:before {
   content: "❣";
 }
 .ec-two-hearts:before {
@@ -2275,7 +2479,7 @@ body p {
 .ec-star-and-crescent:before {
   content: "☪";
 }
-.ec-om-symbol:before {
+.ec-om:before {
   content: "🕉";
 }
 .ec-wheel-of-dharma:before {
@@ -2287,7 +2491,7 @@ body p {
 .ec-six-pointed-star:before {
   content: "🔯";
 }
-.ec-menorah-with-nine-branches:before {
+.ec-menorah:before {
   content: "🕎";
 }
 .ec-yin-yang:before {
@@ -2350,10 +2554,10 @@ body p {
 .ec-u5272:before {
   content: "🈹";
 }
-.ec-radioactive-sign:before {
+.ec-radioactive:before {
   content: "☢";
 }
-.ec-biohazard-sign:before {
+.ec-biohazard:before {
   content: "☣";
 }
 .ec-mobile-phone-off:before {
@@ -2418,6 +2622,9 @@ body p {
 }
 .ec-o:before {
   content: "⭕";
+}
+.ec-stop-sign:before {
+  content: "🛑";
 }
 .ec-anger:before {
   content: "💢";
@@ -2566,22 +2773,22 @@ body p {
 .ec-keycap-ten:before {
   content: "🔟";
 }
-.ec-double-vertical-bar:before {
+.ec-pause-button:before {
   content: "⏸";
 }
-.ec-black-right-pointing-triangle-with-double-vertical-bar:before {
+.ec-next-track-button:before {
   content: "⏭";
 }
-.ec-black-square-for-stop:before {
+.ec-stop-button:before {
   content: "⏹";
 }
-.ec-black-circle-for-record:before {
+.ec-record-button:before {
   content: "⏺";
 }
-.ec-black-right-pointing-double-triangle-with-vertical-bar:before {
+.ec-play-or-pause-button:before {
   content: "⏯";
 }
-.ec-black-left-pointing-double-triangle-with-vertical-bar:before {
+.ec-previous-track-button:before {
   content: "⏮";
 }
 .ec-fast-forward:before {

@@ -55,10 +55,22 @@ window.addEventListener("load", function () {
         iconsCache[iconName] = { $: c, k: iconKeywords };
     }
 
+
+    var $featuredWrapper = $("section.featured");
+    var $titleWrapper = $("section.title");
     $(".search-input").addEventListener("input", function () {
-        var search = this.value
+
+        var search = this.value.trim()
           , names = Object.keys(iconsCache)
           ;
+
+        if (search) {
+            $featuredWrapper.classList.add("closed");
+            $titleWrapper.classList.add("closed");
+        } else {
+            $featuredWrapper.classList.remove("closed");
+            $titleWrapper.classList.remove("closed");
+        }
 
         function check(cIcon, s) {
             var re = new RegExp(s);

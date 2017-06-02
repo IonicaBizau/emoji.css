@@ -22,6 +22,8 @@ var cssDist = Absurd()
           , "meta[charset='UTF-8']": null
           , "link[rel='stylesheet' href='dist/emocss.min.css']": null
           , "link[rel='stylesheet' href='example/style.css']": null
+          // TODO Make it mobile friendly one day
+          //, "meta[name='viewport' content='width=device-width,initial-scale=1.0']": null
           , "script[src='example/main.js']": ""
         }
       , "body.list-view": {
@@ -109,7 +111,7 @@ cssDist.compileFile(DIST_PATH, (err, css) => {
     Logger.log("Generated the css file.");
 }, {
     //minify: true
-};
+});
 
 // Compile HTML
 htmlDist.add({

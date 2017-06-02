@@ -36,13 +36,13 @@ var cssDist = Absurd()
           , "section.featured.hide-single-view": {
                 ".wrapper": {
                     "span.featured-icon.ec.ec-rocket": ""
-                  , "span.featured-icon.ec.ec-floppy-disk": ""
-                  , "span.featured-icon.ec.ec-bell": ""
+                  , "span.featured-icon.ec.ec-sparkling-heart": ""
+                  , "span.featured-icon.ec.ec-tada": ""
                 }
             }
           , "section.title.hide-single-view": {
                 ".wrapper": {
-                    "p.description": "Your project. Emojified."
+                    "p.description": "Your web page. Emojified."
                   , "a.button.download[href=https://github.com/IonicaBizau/EmoCSS']": "Download EmoCSS"
                 }
             }
@@ -72,11 +72,9 @@ var cssDist = Absurd()
 
 // Add general styles
 cssDist.add({
-    body: {
-        marginTop: "20px",
-        p: {
-            color: "#000"
-        }
+    ".ec": {
+        "font-family": "monospace",
+        "color": "#000"
     }
 });
 

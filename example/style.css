@@ -189,3 +189,20 @@ input.search-input:focus {
 .fadeOut {
     opacity: 0;
 }
+
+section.featured {
+    height: 150px;
+}
+
+section.title {
+    height: 250px;
+}
+
+section.featured, .title {
+    overflow: hidden;
+    transition: all 300ms ease !important;
+}
+
+section.featured.closed, .title.closed {
+    height: 0;
+}
