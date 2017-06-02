@@ -3,7 +3,7 @@
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Version](https://img.shields.io/npm/v/emoji.css.svg)](https://www.npmjs.com/package/emoji.css) [![Downloads](https://img.shields.io/npm/dt/emoji.css.svg)](https://www.npmjs.com/package/emoji.css)
 
-> Your website. Emojified.
+> Your website. Emojified. Like FontAwesome for emojis.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
