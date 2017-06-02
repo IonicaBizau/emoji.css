@@ -42,5 +42,9 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/emoji.css.git"
+  },
+  "blah": {
+    "h_img": "https://i.imgur.com/b2h8HqS.png",
+    "h_url": "https://ionicabizau.github.io/emoji.css/"
   }
 }
