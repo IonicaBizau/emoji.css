@@ -1,5 +1,7 @@
-.ec {
-  font-family: monospace;
+body {
+  margin-top: 20px;
+}
+body p {
   color: #000;
 }
 .ec-100:before {

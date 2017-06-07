@@ -1,5 +1,5 @@
 // Dependencies
-const EmoCss = require("../lib")
+const emoji = require("../lib")
     , Path = require("path")
     , IterateObject = require("iterate-object")
     , Absurd = require("absurd")
@@ -18,7 +18,7 @@ var cssDist = Absurd()
   , items = []
   , htmlData = {
         head: {
-            title: "EmoCSS"
+            title: "emoji.css"
           , "meta[charset='UTF-8']": null
           , "link[rel='stylesheet' href='dist/emocss.min.css']": null
           , "link[rel='stylesheet' href='example/style.css']": null
@@ -27,12 +27,12 @@ var cssDist = Absurd()
           , "script[src='example/main.js']": ""
         }
       , "body.list-view": {
-            "div.hide.emoji-chars": Object.keys(EmoCss).map(x => EmoCss[x].className).join(",")
+            "div.hide.emoji-chars": Object.keys(emoji).map(x => emoji[x].className).join(",")
           , header: {
                 ".wrapper": {
-                    "a[href=/]": "EmoCSS"
+                    "a[href=/]": "emoji.css"
                   , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
-                  , "a.right[href=https://github.com/IonicaBizau/EmoCSS]": "See on GitHub"
+                  , "a.right[href=https://github.com/IonicaBizau/emoji.css]": "See on GitHub"
                 }
             }
           , "section.featured.hide-single-view": {
@@ -45,7 +45,7 @@ var cssDist = Absurd()
           , "section.title.hide-single-view": {
                 ".wrapper": {
                     "p.description": "Your project. Emoji icons."
-                  , "a.button.download[href=https://github.com/IonicaBizau/EmoCSS']": "Download EmoCSS"
+                  , "a.button.download[href=https://github.com/IonicaBizau/emoji.css']": "Download emoji.css"
                 }
             }
           , "section.hide-single-view": {
@@ -83,7 +83,7 @@ cssDist.add({
 });
 
 // Build the CSS file
-IterateObject(EmoCss, (cIcon, name) => {
+IterateObject(emoji, (cIcon, name) => {
     var className = cIcon.className
       , cssIcon = {
             ["." + className + ":before"]: {
