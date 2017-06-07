@@ -30,7 +30,7 @@ var cssDist = Absurd()
             "div.hide.emoji-chars": Object.keys(emoji).map(x => emoji[x].className).join(",")
           , header: {
                 ".wrapper": {
-                    "a[href=/]": "emoji.css"
+                    "a[href='https://ionicabizau.github.io/emoji.css/']": "emoji.css"
                   , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
                   , "a.right[href=https://github.com/IonicaBizau/emoji.css]": "See on GitHub"
                 }
