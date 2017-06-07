@@ -31,7 +31,7 @@ var cssDist = Absurd()
           , header: {
                 ".wrapper": {
                     "a[href='https://ionicabizau.github.io/emoji.css/']": "emoji.css"
-                  , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
+                  , "input.search-input[placeholder='Search...' autofocus='autofocus']": null
                   , "a.right[href=https://github.com/IonicaBizau/emoji.css]": "See on GitHub"
                 }
             }
