@@ -1,6 +1,6 @@
 {
   "name": "emoji.css",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Your website. Emojified. Like FontAwesome for emojis.",
   "main": "lib/index.js",
   "keywords": [
@@ -44,7 +44,7 @@
     "url": "git+ssh://git@github.com/IonicaBizau/emoji.css.git"
   },
   "blah": {
-    "h_img": "https://i.imgur.com/b2h8HqS.png",
+    "h_img": "http://i.imgur.com/M4Rh3z3.png",
     "h_url": "https://ionicabizau.github.io/emoji.css/"
   }
 }
