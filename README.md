@@ -1,5 +1,5 @@
 
-[![emoji.css](https://i.imgur.com/b2h8HqS.png)](https://ionicabizau.github.io/emoji.css/)
+[![emoji.css](http://i.imgur.com/M4Rh3z3.png)](https://ionicabizau.github.io/emoji.css/)
 
 # emoji.css
 
