@@ -28,8 +28,8 @@ var cssDist = Absurd()
             "div.hide.emoji-chars": Object.keys(emojiCss).map(x => emojiCss[x].className).join(",")
           , header: {
                 ".wrapper": {
-                    "a[href=/]": "emoji.css"
-                  , "input.search-input[placeholder='Search icons' autofocus='autofocus']": null
+                    "a[href='https://ionicabizau.github.io/emoji.css/']": "emoji.css"
+                  , "input.search-input[placeholder='Search...' autofocus='autofocus']": null
                   , "a.right[href=https://github.com/IonicaBizau/emoji.css]": "See on GitHub"
                 }
             }
@@ -43,7 +43,7 @@ var cssDist = Absurd()
           , "section.title.hide-single-view": {
                 ".wrapper": {
                     "p.description": "Your website. Emojified."
-                  , "a.button.download[href=https://github.com/IonicaBizau/emojiCss']": "Download emoji.css"
+                  , "a.button.download[href=https://github.com/IonicaBizau/emoji.css']": "Download emoji.css"
                   , "pre": ("<!-- Or use the CDN -->\n" +
                             "<link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>\n" +
                             "...\n" +
