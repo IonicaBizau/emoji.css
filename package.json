@@ -1,6 +1,6 @@
 {
   "name": "emoji.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Your website. Emojified. Like FontAwesome for emojis.",
   "main": "lib/index.js",
   "keywords": [
@@ -37,7 +37,10 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ],
   "repository": {
     "type": "git",
