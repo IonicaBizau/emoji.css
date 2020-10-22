@@ -1,4 +1,6 @@
+
 window.addEventListener("load", function () {
+    
 
     var $$ = document.querySelectorAll.bind(document)
       , $ = document.querySelector.bind(document)
