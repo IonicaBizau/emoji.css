@@ -3043,3 +3043,15 @@ body p {
 .ec-clock1230:before {
   content: "🕧";
 }
+.ec-flag-white:before {
+  content: "🏳️";
+}
+.ec-flag-black:before {
+  content: "🏴";
+}
+.ec-flag-rally:before {
+  content: "🏁";
+}
+.ec-flag-red:before {
+  content: "🚩";
+}
