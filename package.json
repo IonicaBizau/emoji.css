@@ -1,6 +1,6 @@
 {
   "name": "emoji.css",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Your website. Emojified. Like FontAwesome for emojis.",
   "main": "lib/index.js",
   "keywords": [
@@ -38,6 +38,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
